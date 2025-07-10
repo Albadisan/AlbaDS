@@ -26,13 +26,14 @@
       padding: 2rem;
     }
     .proyecto {
-      background: white;
-      padding: 1.5rem;
+      background: white; <!-- fondo blanco -->
+      padding: 1.5rem; 
       margin-bottom: 1.5rem;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
       transition: transform 0.2s ease;
     }
+    <!-- consigo que se mueva cada recuadro al pasar el ratón-->
     .proyecto:hover {
       transform: translateY(-5px);
     }
@@ -43,6 +44,7 @@
       color: #2b6cb0;
       text-decoration: none;
     }
+    <!-- subraya el enlace al pasar el ratón -->
     a:hover {
       text-decoration: underline;
     }
@@ -59,7 +61,8 @@
   </header>
 
   <div class="container">
-    <div class="proyecto">
+    
+    <div class="proyecto"> 
       <h2>Red Neuronal MNIST</h2>
       <p>Clasificación de dígitos escritos a mano con PyTorch.</p>
       <a href="https://github.com/tuusuario/red-neuronal-mnist" target="_blank">Ver en GitHub</a>
